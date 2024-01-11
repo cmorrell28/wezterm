@@ -13,7 +13,7 @@ end
 -- This is where you actually apply your config choices
 
 -- For example, changing the color scheme:
-config.color_scheme = 'AdventureTime'
+config.color_scheme = 'nord'
 
 -- Remap keys
 config.keys = {
@@ -29,6 +29,10 @@ config.keys = {
   -- Make Cmd-Backspace equivalent to Ctrl-u (delete line)
   {key="Backspace", mods="CMD", action=wezterm.action{SendString="\x15"}}
 }
+
+-- Adjust default window size
+config.initial_rows = 18
+config.initial_cols = 100
 
 -- and finally, return the configuration to wezterm
 return config
