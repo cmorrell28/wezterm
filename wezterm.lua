@@ -15,6 +15,9 @@ end
 -- For example, changing the color scheme:
 config.color_scheme = 'nord'
 
+-- Use default hyperlink rules
+config.hyperlink_rules = wezterm.default_hyperlink_rules()
+
 -- Remap keys
 config.keys = {
   -- See ASCII table for combined characters to determine which hex value to send (see https://www.physics.udel.edu/~watson/scen103/ascii.html)
