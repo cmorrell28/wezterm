@@ -13,7 +13,7 @@ end
 -- This is where you actually apply your config choices
 
 -- For example, changing the color scheme:
-config.color_scheme = 'nord'
+config.color_scheme = 'rose-pine'
 
 -- Use default hyperlink rules
 config.hyperlink_rules = wezterm.default_hyperlink_rules()
